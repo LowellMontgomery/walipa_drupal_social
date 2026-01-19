@@ -1,39 +1,14 @@
 {
-    "name": "LowellMontgomery/social_docker",
-    "description": "Social docker template for composer based Open Social projects.",
-    "type": "project",
+    "name": "lowellmontgomery/walipa_drupal_social",
+    "description": "An extension of Open Social for the Walipa Foundation.",
+    "type": "drupal-profile",
     "license": "GPL-2.0-or-later",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "config": {
-        "optimize-autoloader": true,
-        "update-with-dependencies": true,
-        "sort-packages": true,
-        "allow-plugins": {
-            "composer/installers": true,
-            "cweagans/composer-patches": true,
-            "drupal/core-composer-scaffold": true,
-            "oomphinc/composer-installers-extender": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "phpstan/extension-installer": true,
-            "drupal/console-extend-plugin": true,
-            "zaporylie/composer-drupal-optimizations": true
-        }
-    },
     "require": {
-        "drupal/redis": "^1.5",
-        "LowellMontgomery/walipa_open_social": "dev-main"
-    },
-    "require-dev": {
-        "composer/composer": "^2",
-        "LowellMontgomery/walipa_open_social_dev": "dev-main",
-        "phpmd/phpmd": "^2.10",
-        "squizlabs/html_codesniffer": "*",
-        "symplify/easy-coding-standard": "^9.4"
-    },
-    "repositories": {
-        "0": {
-            "type": "composer",
+        "drupal/social": "^12.0"
+    }
+}
             "url": "https://packages.drupal.org/8",
             "exclude": ["LowellMontgomery/walipa_open_social", "drupal/social"]
         },
