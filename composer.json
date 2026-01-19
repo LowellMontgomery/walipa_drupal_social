@@ -1,6 +1,5 @@
 {
     "name": "lowellmontgomery/walipa_drupal_social",
-    "description": "An extension of Open Social for the Walipa Foundation.",
     "type": "drupal-profile",
     "license": "GPL-2.0-or-later",
     "require": {
