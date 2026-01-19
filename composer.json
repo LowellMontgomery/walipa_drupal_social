@@ -1,5 +1,5 @@
 {
-    "name": "goalgorilla/social_docker",
+    "name": "LowellMontgomery/social_docker",
     "description": "Social docker template for composer based Open Social projects.",
     "type": "project",
     "license": "GPL-2.0-or-later",
@@ -22,11 +22,11 @@
     },
     "require": {
         "drupal/redis": "^1.5",
-        "goalgorilla/open_social": "dev-main"
+        "LowellMontgomery/walipa_open_social": "dev-main"
     },
     "require-dev": {
         "composer/composer": "^2",
-        "goalgorilla/open_social_dev": "dev-main",
+        "LowellMontgomery/walipa_open_social_dev": "dev-main",
         "phpmd/phpmd": "^2.10",
         "squizlabs/html_codesniffer": "*",
         "symplify/easy-coding-standard": "^9.4"
@@ -35,7 +35,7 @@
         "0": {
             "type": "composer",
             "url": "https://packages.drupal.org/8",
-            "exclude": ["goalgorilla/open_social", "drupal/social"]
+            "exclude": ["LowellMontgomery/walipa_open_social", "drupal/social"]
         },
         "1": {
             "type": "composer",
@@ -55,8 +55,8 @@
         },
         "3": {
             "type": "git",
-            "url": "https://github.com/goalgorilla/open_social.git",
-            "only": ["goalgorilla/open_social", "drupal/social"]
+            "url": "https://github.com/LowellMontgomery/walipa_open_social.git",
+            "only": ["LowellMontgomery/walipa_open_social", "walipa_drupal/social"]
         }
     },
     "scripts": {
